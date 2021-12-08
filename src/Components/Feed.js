@@ -16,7 +16,7 @@ function Feed() {
       />
     );
   });
-  return <>{cards}</>;
+  return <div className="feed">{cards}</div>;
 }
 
 export default Feed;

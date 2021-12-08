@@ -26,13 +26,40 @@
   margin-right: 10px;
 }
 
+/* FEED */
+/* FEED */
+/* FEED */
+/* FEED */
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* CARD */
 /* CARD */
 /* CARD */
 /* CARD */
 
 .card--container {
-  margin-left: 150px;
+  max-width: 80%;
+  margin-bottom: 50px;
+
+  display: flex;
+}
+
+.card--container2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.card--container3 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .card--image {
@@ -40,4 +67,45 @@
   height: 672px;
   object-fit: cover;
   border-radius: 20px;
+}
+
+.card--gps {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.card--location {
+  font-size: 32px;
+  font-weight: 300;
+  color: #2b283a;
+
+  letter-spacing: 0.17rem;
+  margin-right: auto;
+}
+
+.card--title {
+  font-weight: 700;
+  font-size: 56px;
+  color: #2b283a;
+  margin-bottom: 60px;
+}
+
+.card--googleUrl {
+  font-weight: 300;
+  color: #918e9b;
+  font-size: 32px;
+  text-decoration-line: underline;
+}
+
+.card--dates {
+  font-weight: 700;
+  color: #2b283a;
+  font-size: 28px;
+  margin-bottom: 60px;
+}
+
+.card--description {
+  color: #2b283a;
+  font-size: 28px;
+  line-height: 225%;
 }
