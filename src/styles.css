@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .navbar--title {
@@ -23,4 +24,20 @@
 .navbar--logo {
   width: 4rem;
   margin-right: 10px;
+}
+
+/* CARD */
+/* CARD */
+/* CARD */
+/* CARD */
+
+.card--container {
+  margin-left: 150px;
+}
+
+.card--image {
+  width: 500px;
+  height: 672px;
+  object-fit: cover;
+  border-radius: 20px;
 }
